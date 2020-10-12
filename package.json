@@ -1,7 +1,7 @@
 {
   "name": "js-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Javascript Calculator Using React and JS",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

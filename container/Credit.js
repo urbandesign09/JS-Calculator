@@ -5,7 +5,7 @@ function Credit() {
     <div id="credit">
       Web Calculator by{" "}
       <a
-        href="http://www.edbertcheng.com"
+        href="https://codepen.io/urbandesign09"
         target="_blank"
         rel="noopener noreferer"
       >
