@@ -131,7 +131,9 @@ class Calculator extends React.Component {
       this.onReset();
       //if input is equal sign
     } else if (value === "=") {
-      if (this.state.input === "0" && this.state.lastOperation === "") {
+      if ((valueIsNum === false) & (lastValueIsNum === false)) {
+        return;
+      } else if (this.state.input === "0" && this.state.lastOperation === "") {
         return this.setState({
           input: "NaN",
           lastOperation: "="
