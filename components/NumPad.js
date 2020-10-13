@@ -32,7 +32,7 @@ function NumPad(props) {
       <Button
         key={valueArr.indexOf(item)}
         id={item.id}
-        className={item.className.concat(" btn btn-default")}
+        className={item.className.concat(" btn ")}
         value={item.value}
         onClick={props.onClick}
       />

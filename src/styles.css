@@ -74,6 +74,12 @@ body {
   background: darkorange;
 }
 
+.num:hover,
+.decimal:hover {
+  background: lightgrey;
+  color: white;
+}
+
 .operation:hover {
   background: orange;
   color: white;
@@ -93,12 +99,12 @@ body {
     "zero zero decimal equal";
 }
 
-.btn-default:focus {
+.btn:focus {
   outline: none !important;
 }
 
-.btn-default {
-  font-weight: bolder;
+.btn {
+  font-size: 125%;
 }
 
 #credit {
