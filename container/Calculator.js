@@ -1,6 +1,7 @@
 import React from "react";
 import Display from "../components/Display";
 import NumPad from "../components/NumPad";
+import { evaluate } from "mathjs";
 
 class Calculator extends React.Component {
   constructor() {
@@ -155,7 +156,8 @@ class Calculator extends React.Component {
       .replace(/[+/*-](?=$)/g, "")
       .replace(/(?=^)[+/*]/g, ""); //remove operations tagged at the end
 
-    const result = eval(newStr).toString();
+    let result = evaluate(newStr);
+    result = String(result);
 
     this.setState({
       input: result,
