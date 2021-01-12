@@ -27,7 +27,7 @@ body {
   width: 350px;
   height: 70px;
   margin: 0 0 5px 0;
-  background: dimgrey;
+  background: rgb(51, 51, 51);
   border-radius: 5px;
 }
 
@@ -76,7 +76,7 @@ body {
 
 .num:hover,
 .decimal:hover {
-  background: lightgrey;
+  background: rgb(83, 223, 153);
   color: white;
 }
 
@@ -87,7 +87,7 @@ body {
 
 .num-pad-grid {
   display: grid;
-  grid-gap: 4px;
+  grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   min-height: 350px;
@@ -105,6 +105,7 @@ body {
 
 .btn {
   font-size: 125%;
+  font-weight: bold;
 }
 
 #credit {
